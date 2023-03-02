@@ -39,7 +39,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="32dp"
-                    android:text="Hi Leonardo"
+                    android:text="Hi Friend"
                     android:textColor="#FF5722"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -80,7 +80,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView8">
 
                     <ImageView
-                        android:id="@+id/imageView5"
+                        android:id="@+id/imageView6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
@@ -103,7 +103,7 @@
                         android:textSize="20sp"
                         android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+                        app:layout_constraintTop_toTopOf="@+id/imageView6" />
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="wrap_content"
@@ -115,7 +115,7 @@
                         app:layout_constraintTop_toBottomOf="@+id/textView9">
 
                         <TextView
-                            android:id="@+id/textView11"
+                            android:id="@+id/textView10"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="16dp"
@@ -223,14 +223,14 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView5"
+                        android:id="@+id/imageView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/bottom_btn1" />
 
                     <TextView
-                        android:id="@+id/textView11"
+                        android:id="@+id/textView14"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Home"
@@ -246,13 +246,13 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView5"
+                        android:id="@+id/imageView8"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/bottom_btn2" />
 
                     <TextView
-                        android:id="@+id/textView11"
+                        android:id="@+id/textView17"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Profile"
@@ -269,14 +269,14 @@
                     android:visibility="visible">
 
                     <ImageView
-                        android:id="@+id/imageView5"
+                        android:id="@+id/imageView9"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/bottom_btn5" />
 
                     <TextView
-                        android:id="@+id/textView11"
+                        android:id="@+id/textView19"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Home"
@@ -292,14 +292,14 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView5"
+                        android:id="@+id/imageView10"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/bottom_btn3" />
 
                     <TextView
-                        android:id="@+id/textView11"
+                        android:id="@+id/textView20"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Support"
@@ -335,7 +335,6 @@
 
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
-    bottom_navigation.txt
-    Đang hiển thị bottom_navigation.txt.
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

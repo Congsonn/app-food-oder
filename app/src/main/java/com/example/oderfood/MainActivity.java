@@ -26,11 +26,11 @@ public class MainActivity extends AppCompatActivity {
         recyclerViewdoanphobienList.setLayoutManager(linearLayoutManager);
 
         ArrayList<doanphobien> doanphobienlist = new ArrayList<>();
-        doanphobienlist.add(new doanphobien("Pepperoni pizza","pizza1","slices peperoni,mozzarella cheese,fresh oregano,ground black pepper,pizza sauce",135,5,20,1000));
-        doanphobienlist.add(new doanphobien("Cheese Burger ","burger","beef,Gouda Cheese,Special sauce,Lettuce,tomato",50,4,18,1500));
-        doanphobienlist.add(new doanphobien("Vagetable pizza","pizza3","olive oil,Vegetable oil,pitted Kalamata,cherry tomatoes,fresh oregano,basil",125,3,16,800));
+        doanphobienlist.add(new doanphobien("Pepperoni pizza","pizza1","slices peperoni,mozzarella cheese,fresh oregano,ground black pepper,pizza sauce", 135.0,5,20,1000));
+        doanphobienlist.add(new doanphobien("Cheese Burger ","burger","beef,Gouda Cheese,Special sauce,Lettuce,tomato", 50.0,4,18,1500));
+        doanphobienlist.add(new doanphobien("Vagetable pizza","pizza3","olive oil,Vegetable oil,pitted Kalamata,cherry tomatoes,fresh oregano,basil", 125.0,3,16,800));
 
-        adapter2 = new
+
     }
 
     private void recyclerViewdanhsachdoan() {
