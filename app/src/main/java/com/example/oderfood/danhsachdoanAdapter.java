@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
@@ -49,7 +50,7 @@ public class danhsachdoanAdapter extends RecyclerView.Adapter<danhsachdoanAdapte
             piUrl = "cat_4";
             break;
             }
-        case 4:{
+        case 5:{
             piUrl = "cat_5";
             break;
             }
@@ -58,9 +59,7 @@ public class danhsachdoanAdapter extends RecyclerView.Adapter<danhsachdoanAdapte
                 .getIdentifier(piUrl,"drawabble",
                         holder.itemView.getContext().getPackageName());
 
-        Glide.with(holder.itemView.getContext())
-                .load(drawableReourceId)
-                .into(holder.danhsachdoanPic);
+        Glide.with(holder.itemView.getContext()).load(drawableReourceId).into(holder.danhsachdoanPic);
     }
 
     @Override

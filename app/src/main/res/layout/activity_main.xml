@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ECEBE6"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -26,7 +26,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
-                    android:text="Đồ ăn phổ biến"
+                    android:text="Đồ ăn phổ biến "
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -279,7 +279,7 @@
                         android:id="@+id/textView19"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Home"
+                        android:text="Rỏ hàng"
                         android:textAlignment="center"
                         android:textColor="#676767"
                         android:textSize="12sp" />

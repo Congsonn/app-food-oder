@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
         doanphobienlist.add(new doanphobien("Cheese Burger ","burger","beef,Gouda Cheese,Special sauce,Lettuce,tomato", 50.0,4,18,1500));
         doanphobienlist.add(new doanphobien("Vagetable pizza","pizza3","olive oil,Vegetable oil,pitted Kalamata,cherry tomatoes,fresh oregano,basil", 125.0,3,16,800));
 
-
+        adapter2 = new doanphobienAdapter(doanphobienlist);
+        recyclerViewdoanphobienList.setAdapter(adapter2);
     }
 
     private void recyclerViewdanhsachdoan() {
